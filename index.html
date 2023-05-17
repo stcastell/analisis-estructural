@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+	     <title>Análisis Estructural</title>
+		 <meta charset = "UTF-8"/>
+		 <link rel ="stylesheet" type="text/css" href="css/estilos.css"/>
+	 </head>
+	 <body>
+	     <div id ="cont"class="cont">
+	         <h1>Análisis Estructural (v 1.2.)</h1>
+<!----------------------------------------------------------0) UNID.-->			 
+             <h2>1) Especifique sistema de unidades:</h2>
+			 <select id="unid">
+			     <option id="es" value ="Sistema Internacional">
+				     Sistema Internacional
+				 </option>	
+                 <option id="is" value ="Sistema Inglés">
+				     Sistema Inglés
+				 </option>
+			 </select>
+             <div class = "claroR" id="kosys"></div>
+			 <br><br><hr>
+			 
+<!----------------------------------------------------------1) CLARO-->				 
+			 
+		     <h2>2) Especifique longitud de la viga (sin unidades):</h2>
+		     <input type="text" id="claro" value="" placeholder="m, ft">
+			 <div class ="claroR" id="claroR"></div>
+		     <hr>
+			 
+<!------------------------------------------------2) TIPO DE SOPORTE-->			 
+			 
+		     <h2 class="barbaries">3) Especifique el tipo de soporte:</h2>
+		     <select class="barbaries" id="kos">
+		         <option id="ss" value="Soporte simple">
+			         Soporte simple
+			     </option>
+				 <option id="em" value="Empotramiento">
+			         Empotramiento
+			     </option>
+		     </select>
+			 <div class = "claroR" id="kosR"></div>
+<!-----------------------------------------------3) NUMERO DE CARGAS-->				 
+			 
+			 <h2>3) Especifique el numero de cargas:</h2>
+		     <select id = "cargas">
+			     <option id="1c" value="1">
+			         1
+			     </option>
+			     <option id="2c" value="2">
+			         2
+			     </option>
+			 <select>
+			 <div class ="claroR" id="cargasR"></div>
+		     <br><hr><br>
+			 
+<!---------------------------------------------------BOTON CONTINUAR-->				 
+			 
+		     <button id="b1">Continuar</button>
+			 <button id="cleaner" class="cleaner">Limpiar</button>
+		 
+<!---------------------------------------------------------4)CARGA 1-->
+             <div id = "cha1">
+		     </div>
+		 </div>	 
+<!----------------------------------------------------DIBUJO DE VIGA-->	
+			 
+			 <div id = "diagram1" class ="diagram1"><!--SIMSUPP-->
+			     <div class="simple">
+                     <canvas class="miCanvasB" id="micanvasB" width="700" height="30">Su navegador no soporta Canvas. Por favor actualícese.
+					 </canvas> <!--------------------FLECHA DE CARGA-->			 
+			         <div class="viga">
+				         <img src="images/viga.png" id="vigaImg">
+				     </div>
+					 <div id="data" class="data">
+					     
+					 </div>
+                 </div>	
+                 <canvas class="miCanvas" id="miCanvas" width="250" height="250">Su navegador no soporta Canvas. Por favor actualicese.</canvas><!--------------GRAFICO1--><canvas class="miCanvasV" id="miCanvasV" width="250" height="250">Su navegador no soporta Canvas. Por favor actualicese.</canvas><!--------------GRAFICO2-->				 
+			 </div>	 
+	 <!--------------------------------------------------------SCRIPT-->				 
+			 <script src = "scripts/script.js"></script>	
+             <footer></footer>			 
+	 </body>
+</html>

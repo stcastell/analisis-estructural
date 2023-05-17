@@ -1,0 +1,236 @@
+
+
+*{
+	padding:0px;
+	font-family:calibri;
+	background:url(../images/vigas.jpg);
+	background-repeat:repeat-y;
+	background-size:100%;
+	background-position:center 0;
+	background-attachment:fixed;  
+
+}
+
+.barbaries{
+	display:none;
+}
+
+.cont{
+	width:48%;
+	background:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:25%;
+	margin-top:6%;
+}
+
+
+h1{
+	width:100%;
+	background:#1D7972;
+	text-align:center;
+	color:#fff;
+	margin-top:0px;
+}
+
+h2{
+	background:#fff;
+	font-weight:none;
+	display:block;
+	margin-left:3%;
+}
+
+h3{
+	background:#fff;
+	font-size:22px;
+}
+
+input{
+	background:#fff;
+	margin-bottom:2%;
+	margin-left:3%;
+	
+}
+
+select{
+	background:#fff;
+	margin-right:20px;
+	margin-left:3%;
+}
+
+.diagram1{
+	display:none;
+}
+
+.claroR{
+	font-weight:bold;
+	display:none;
+	background:aqua;
+}
+
+.kos{
+	font-weight:bold;
+	background:aqua;
+}
+
+button{
+	border:0px;
+	padding:10px;
+	margin-left:46%;
+	margin-bottom:2%;
+	background:blue;
+	color:#fff;
+	font-weight:bold;
+	text-shadow:px 2px 2px #000;
+	width:15%;
+}
+
+.cleaner{
+	display:none;
+	border:0px;
+	padding:10px;
+	margin-left:46%;
+	margin-bottom:2%;
+	background:green;
+	color:#fff;
+	font-weight:bold;
+	text-shadow:px 2px 2px #000;
+}
+
+.miCanvas{
+	display:none;
+}
+
+.miCanvasV{
+	display:none;
+}
+
+.miCanvasB{
+	width:100%;
+    margin:0px;
+    padding:0px;	
+}
+
+/*------------------------------------------------------------DIAGRAMA*/
+
+/*---------------ESTILOS CON JS*/
+.miCanvas2{
+	display:inline-block;
+	width:48%;
+	margin-left:1%;
+}
+
+.miCanvas2V{
+	display:inline-block;
+	width:48%;
+	margin-left:1%;
+}
+
+.diagram2{ 
+	background:#fff;
+	margin-left:0.5%;
+	display:inline-block;
+	width:48%;
+	margin-top:0.2%;
+	position:fixed;
+	transition:700ms all ease;
+	padding:1%;
+}
+
+.elementoh2{/*4.1) distancia de la carga*/
+	font-size:24px;
+	font-weight:bold;
+}
+
+.cont2{
+	transition:900ms all ease;
+	width:48%;
+	background:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:1%;
+}
+/*----------------/ESTILOS CON JS*/
+
+
+
+
+.simple{ /*caja para viga con soporte simple*/
+	background:#fff;
+	padding-bottom:5%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:0%;
+}
+
+/*----------------------CARGA*/
+.carga1{
+	background:#fff;
+	width:5%;
+}
+
+.carga1 img{
+	width:60%;
+	background:#fff;
+}
+/*---------------------/CARGA*/
+
+/*-----------------------VIGA*/
+.viga{
+	background:#fff;
+	width:100%;
+}
+
+.viga img{
+	background:#fff;
+	height:70px;
+	width:100%;
+}
+/*-----------------------/VIGA*/
+
+/*-----------------------SIMSUPP*/
+.simsup{
+	margin-top:0%;
+	background:#fff;
+	display:inline-block;
+	width:5%;
+}
+
+.simsup img{
+	width:100%;
+	background:#fff;
+}
+/*-----------------------/SIMSUPP*/
+
+/*-----------------------SIMSUPP2*/
+.simsup2{
+	margin-top:0%;
+	margin-left:88%;
+	display:inline-block;
+	background:#fff;
+	width:5%;
+}
+
+.simsup2 img{
+	width:100%;
+	background:#fff;
+}
+/*-----------------------/SIMSUPP2*/
+
+/*----------------------------DATA*/
+.data{
+	background:#1D7972;
+	font-weight:bold;
+	color:#fff;
+	padding:1%;
+}
+
+.dataB{
+	background:#1D7972;
+	font-weight:bold;
+	color:#fff;
+	padding:1%;
+	font-size:12px;
+}
+/*---------------------------/DATA*/
+
