@@ -1,8 +1,8 @@
-document.getElementById("b1").addEventListener("click", e1);
-document.getElementById("cleaner").addEventListener("click", cleaner);
-
 var buttonCounter = 0;
 var elCont = 0;
+
+document.getElementById("b1").addEventListener("click", e1);
+document.getElementById("cleaner").addEventListener("click", cleaner);
 
 if (claro > 0) {
 	var container = document.getElementById("cont");
